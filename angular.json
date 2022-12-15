@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/docs",
             "allowedCommonJsDependencies": [
               "object-path",
               "apexcharts",
