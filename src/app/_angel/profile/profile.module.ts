@@ -7,6 +7,12 @@ import { GecislerimComponent } from './islemler/gecislerim/gecislerim.component'
 import { IzinlerimComponent } from './islemler/izinlerim/izinlerim.component';
 import { SurelerimComponent } from './islemler/surelerim/surelerim.component';
 import { ProfileRoutingModule } from './profile-routing.module';
+import { TalepedilenlerComponent } from './talepler/talepedilenler/talepedilenler.component';
+import { TaleplerimComponent } from './talepler/taleplerim/taleplerim.component';
+import { ZiyaretcitaleplerimComponent } from './talepler/ziyaretcitaleplerim/ziyaretcitaleplerim.component';
+import { MobillokasyonComponent } from './talepler/mobillokasyon/mobillokasyon.component';
+import { TasklistemComponent } from './talepler/tasklistem/tasklistem.component';
+import { TakimimComponent } from './talepler/takimim/takimim.component';
 
 
 
@@ -15,7 +21,13 @@ import { ProfileRoutingModule } from './profile-routing.module';
     ProfiledashboardComponent,
     GecislerimComponent,
     IzinlerimComponent,
-    SurelerimComponent
+    SurelerimComponent,
+    TalepedilenlerComponent,
+    TaleplerimComponent,
+    ZiyaretcitaleplerimComponent,
+    MobillokasyonComponent,
+    TasklistemComponent,
+    TakimimComponent
   ],
   imports: [
     CommonModule,
