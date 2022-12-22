@@ -29,6 +29,8 @@ export class AuthService implements OnDestroy {
     return this.currentUserSubject.value;
   }
 
+  
+
   // set currentUserValue(user: UserType) {
   //   this.currentUserSubject.next(user);
   // }
@@ -110,18 +112,21 @@ export class AuthService implements OnDestroy {
     if (AuthModel == null) {
       return of(undefined);
     }
-    var user: any = { loginname:"", id: null, tokenid: "",gorev:null,yetki:null,bolum:null,kademe:null,xsicilid:null,extloginname:"", customerName: "",islemno:'',access:"",accessmenu:true,admin:false};
+    var user:any;
+
     // var user = { fullname: "", username: "", id: null, tokenid: "",extloginname:"",xsicilid:null };
-    user.loginname = AuthModel.loginname;
-    user.gorev = AuthModel.gorev;
-    user.yetki = AuthModel.yetki;
-    user.bolum = AuthModel.bolum;
-    user.kademe = AuthModel.kademe;
-    user.id = AuthModel.id;
-    user.tokenid = AuthModel.tokenid;
-    user.extloginname = AuthModel.extloginname;
-    user.xsicilid = AuthModel.xsicilid;
-    this.helper.userLoginModel = user;
+    // var user: any = { loginname:"", id: null, tokenid: "",gorev:null,yetki:null,bolum:null,kademe:null,xsicilid:null,extloginname:"", customerName: "",islemno:'',access:"",accessmenu:true,admin:false};
+    
+    // user.loginname = AuthModel.loginname;
+    // user.gorev = AuthModel.gorev;
+    // user.yetki = AuthModel.yetki;
+    // user.bolum = AuthModel.bolum;
+    // user.kademe = AuthModel.kademe;
+    // user.id = AuthModel.id;
+    // user.tokenid = AuthModel.tokenid;
+    // user.extloginname = AuthModel.extloginname;
+    // user.xsicilid = AuthModel.xsicilid;
+    // this.helper.userLoginModel = AuthModel;
     
     const auth = this.getAuthFromLocalStorage();
 
