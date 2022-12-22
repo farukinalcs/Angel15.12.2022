@@ -29,6 +29,8 @@ export class AuthService implements OnDestroy {
     return this.currentUserSubject.value;
   }
 
+  
+
   // set currentUserValue(user: UserType) {
   //   this.currentUserSubject.next(user);
   // }
