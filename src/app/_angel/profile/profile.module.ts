@@ -13,6 +13,7 @@ import { ZiyaretcitaleplerimComponent } from './talepler/ziyaretcitaleplerim/ziy
 import { MobillokasyonComponent } from './talepler/mobillokasyon/mobillokasyon.component';
 import { TasklistemComponent } from './talepler/tasklistem/tasklistem.component';
 import { TakimimComponent } from './talepler/takimim/takimim.component';
+import { ProfileDataWidgetComponent } from './profile-data-widget/profile-data-widget.component';
 
 
 
@@ -27,7 +28,8 @@ import { TakimimComponent } from './talepler/takimim/takimim.component';
     ZiyaretcitaleplerimComponent,
     MobillokasyonComponent,
     TasklistemComponent,
-    TakimimComponent
+    TakimimComponent,
+    ProfileDataWidgetComponent
   ],
   imports: [
     CommonModule,
