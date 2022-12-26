@@ -11,5 +11,4 @@ export class GecisgruplariComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
