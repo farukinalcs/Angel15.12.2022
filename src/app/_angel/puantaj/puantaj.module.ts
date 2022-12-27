@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PuantajdashboardComponent } from './puantajdashboard/puantajdashboard.component';
-import { RouterModule } from '@angular/router';
 
+import { PuantajRoutingModule } from './puantaj-routing.module';
+import { PuantajdashboardComponent } from './puantajdashboard/puantajdashboard.component';
 
 
 @NgModule({
@@ -11,12 +11,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild([
-      {
-        path: '',
-        component: PuantajdashboardComponent,
-      },
-    ]),
+    PuantajRoutingModule
   ]
 })
 export class PuantajModule { }
