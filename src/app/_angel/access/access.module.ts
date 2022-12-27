@@ -8,6 +8,7 @@ import { GecisgruplariComponent } from './gecisgruplari/gecisgruplari.component'
 import { TanimlamalarComponent } from './tanimlamalar/tanimlamalar.component';
 import { RaporlarComponent } from './raporlar/raporlar.component';
 import { AccessDataWidgetComponent } from './access-data-widget/access-data-widget.component';
+import { AccessRoutingModule } from './access-routing.module';
 
 
 
@@ -23,6 +24,7 @@ import { AccessDataWidgetComponent } from './access-data-widget/access-data-widg
   ],
   imports: [
     CommonModule,
+    AccessRoutingModule,
     RouterModule.forChild([
       {
         path: '',
