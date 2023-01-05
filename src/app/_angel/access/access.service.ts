@@ -9,7 +9,7 @@ export class AccessService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getMultipleAccessWidget() : any {
+  getMultipleAccessWidget() : any{
     var sp: any[] = [
       { mkodu: 'yek001' }, // İçerdekiler (personel + ziyeretçi)
       { mkodu: 'yek002' }, // İletişimi Kesik Cihazlar
