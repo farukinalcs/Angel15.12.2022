@@ -13,30 +13,50 @@ const routes: Routes = [
   {
     path: '',
     component: AccessdashboardComponent,
-    children: [
-      {
-        path: 'sicil_liste',
-        component: SicillisteComponent,
-      },
-      {
-        path: 'terminal',
-        component: TerminalComponent,
-      },
-      {
-        path: 'gecis_gruplari',
-        component: GecisgruplariComponent,
-      },
-      {
-        path: 'tanimlamalar',
-        component: TanimlamalarComponent,
-      },
-      {
-        path: 'raporlar',
-        component: RaporlarComponent,
-      },
-      { path: '', redirectTo: '', pathMatch: 'full' },
-      { path: '**', redirectTo: '', pathMatch: 'full' },
-    ],
+    // children: [
+    //   {
+    //     path: 'sicil_liste',
+    //     component: SicillisteComponent,
+    //   },
+    //   {
+    //     path: 'terminal',
+    //     component: TerminalComponent,
+    //   },
+    //   {
+    //     path: 'gecis_gruplari',
+    //     component: GecisgruplariComponent,
+    //   },
+    //   {
+    //     path: 'tanimlamalar',
+    //     component: TanimlamalarComponent,
+    //   },
+    //   {
+    //     path: 'raporlar',
+    //     component: RaporlarComponent,
+    //   },
+    //   { path: '', redirectTo: '', pathMatch: 'full' },
+    //   { path: '**', redirectTo: '', pathMatch: 'full' },
+    // ],
+  },
+  {
+    path: 'sicil_liste',
+    component: SicillisteComponent,
+  },
+  {
+    path: 'terminal',
+    component: TerminalComponent,
+  },
+  {
+    path: 'gecis_gruplari',
+    component: GecisgruplariComponent,
+  },
+  {
+    path: 'tanimlamalar',
+    component: TanimlamalarComponent,
+  },
+  {
+    path: 'raporlar',
+    component: RaporlarComponent,
   },
 ];
 
