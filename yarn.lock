@@ -241,7 +241,7 @@
     "uuid" "8.3.2"
     "yargs" "17.4.1"
 
-"@angular/common@^13.0.0", "@angular/common@^14.0.0 || ^15.0.0", "@angular/common@>=13.0.0", "@angular/common@14.0.0":
+"@angular/common@^13.0.0", "@angular/common@^14.0.0", "@angular/common@^14.0.0 || ^15.0.0", "@angular/common@>=13.0.0", "@angular/common@14.0.0":
   "integrity" "sha512-VYydSXelPlcAnWZs6SKkOxV+rNe8zOtHKLf9jBTYT5nP5P66+va4zITo1C9bs5tbK+mRssayf615+SIGEXyJFg=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-14.0.0.tgz"
   "version" "14.0.0"
@@ -271,7 +271,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/core@^13.0.0", "@angular/core@^14.0.0 || ^15.0.0", "@angular/core@>=13.0.0", "@angular/core@14.0.0":
+"@angular/core@^13.0.0", "@angular/core@^14.0.0", "@angular/core@^14.0.0 || ^15.0.0", "@angular/core@>=13.0.0", "@angular/core@14.0.0":
   "integrity" "sha512-Mj3r8iMlWfMbY+9DRUFZx1gKnA27Jwx3ff/VXeXBgfxaEKDYmlZSnliZSV6ssiHSUwn/U6yxDXFgcZL090zNBQ=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-14.0.0.tgz"
   "version" "14.0.0"
@@ -2357,6 +2357,13 @@
     "json-schema-traverse" "^1.0.0"
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
+
+"angular-gridster2@^14.1.1":
+  "integrity" "sha512-aj8i9ZfL5dxhQjdVAtvd1yytTP5FkMiByMyRSW11x/DikHJGoeD8ed3SpD/sIIIEBQnMXXVydjNiXtTDLmQ7Ow=="
+  "resolved" "https://registry.npmjs.org/angular-gridster2/-/angular-gridster2-14.1.1.tgz"
+  "version" "14.1.1"
+  dependencies:
+    "tslib" "^2.3.0"
 
 "angular-in-memory-web-api@0.13.0":
   "integrity" "sha512-rK7k/Ip3TdjOIONZRsEMc8vHfwdESEwfknfX5gIr4QHcMzZ92BPcsILbtH2xr2XVusjePK/bwEc6RMWz3X8wUQ=="

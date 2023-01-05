@@ -1,0 +1,9 @@
+table {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.tableHeaderCellDiv { 
+    resize: horizontal;  
+    overflow:hidden;
+}
