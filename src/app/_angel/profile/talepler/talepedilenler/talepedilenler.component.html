@@ -1,1 +1,68 @@
-<p>talepedilenler works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <mat-tab-group mat-stretch-tabs="false">
+        
+        <mat-tab label="Onayınızı Bekleyen Form Sayısı : {{onayBeklenenForm}}">
+          <div class="row ">
+            <div class="col-1"></div>
+
+            <div class="col-7">
+              <div class="input-group" style="height: 43.64px;">
+                <input class="input-group form-control form-control-sm" type="text"  placeholder="Search..">
+              </div>
+            </div>
+
+            <div class="col-3">
+              <button class="btn btn-light-primary font-weight-bold mr-2">
+                Detaylı Arama
+                <i class="fa fa-search" style="font-size:20px"></i>
+              </button>
+            </div>
+
+            <div class="col-1"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+              <button class="btn btn-light-primary font-weight-bold mr-2 btn-sm btn-pill">
+                Listelenenleri Seç
+              </button>
+            </div>
+
+            <div class="col-3">
+              <button class="btn btn-light-primary font-weight-bold mr-2 btn-sm btn-pill">
+                Listedeki Seçimleri Kaldır
+              </button>
+            </div>
+
+            <div class="col-3">
+              <button class="btn btn-light-primary font-weight-bold mr-2 btn-sm btn-pill">
+                Tümünü Seç
+              </button>
+            </div>
+
+            <div class="col-3">
+              <button class="btn btn-light-primary font-weight-bold mr-2 btn-sm btn-pill">
+                Tümünü kaldır
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            
+          </div>
+        </mat-tab>
+        
+        <mat-tab label="Onaylananlar">
+          Content 2
+        </mat-tab>
+        
+        <mat-tab label="Reddedilenler">
+          Content 3
+        </mat-tab>
+
+      </mat-tab-group>
+    </div>
+  </div>
+</div>
