@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TalepedilenlerComponent implements OnInit {
 
+  onayBeklenenForm : any = 4;
+
   constructor() { }
 
   ngOnInit(): void {

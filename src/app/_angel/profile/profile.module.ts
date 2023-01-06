@@ -14,6 +14,7 @@ import { MobillokasyonComponent } from './talepler/mobillokasyon/mobillokasyon.c
 import { TasklistemComponent } from './talepler/tasklistem/tasklistem.component';
 import { TakimimComponent } from './talepler/takimim/takimim.component';
 import { ProfileDataWidgetComponent } from './profile-data-widget/profile-data-widget.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 
@@ -40,7 +41,8 @@ import { ProfileDataWidgetComponent } from './profile-data-widget/profile-data-w
         component: ProfiledashboardComponent,
       },
     ]),
-    InlineSVGModule
+    InlineSVGModule,
+    MatTabsModule
     
   ]
 })
